@@ -1,3 +1,4 @@
+// Building the deck
 function fullDeck() {
   const suits = ["Wands", "Cups", "Swords", "Pentacles"];
   const values = ["King", "Queen", "Knight", "Page", "Ten", "Nine", "Eight", "Seven",
@@ -20,6 +21,8 @@ function fullDeck() {
     "The World", "The Fool");
   return deck;
 }
+
+// Function to randomly choose a card when called, and splice to remove that card from the array.
 const cards = fullDeck();
 
 function randomCard(cards) {
@@ -28,5 +31,4 @@ function randomCard(cards) {
   cards.splice(random, 1);
   return cardValue;
 }
-
 randomCard(cards);
