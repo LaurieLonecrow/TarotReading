@@ -5,10 +5,11 @@ body {
 
 .deck {
   display: block;
-  margin-left: 35%;
-  margin-right: auto;
-  width: 50%;
+  max-width: 50%;
   position: relative;
+left: 25%;
+right: auto;
+
 }
 
 .ppf-spread {
