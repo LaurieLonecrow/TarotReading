@@ -5,11 +5,11 @@ body {
 
 .deck {
   display: block;
-  max-width: 50%;
+  max-width: 30%;
   position: relative;
-left: 25%;
+left: 33%;
 right: auto;
-margin-bottom: 30px;
+margin: 30px;
 
 }
 
