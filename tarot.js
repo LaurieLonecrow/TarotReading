@@ -31,4 +31,14 @@ function randomCard(cards) {
   cards.splice(random, 1);
   return cardValue;
 }
-randomCard(cards);
+
+
+// Lightbox Functionality
+
+function openLightbox(ele) {
+  document.getElementById('lightbox').style.width = "100%";
+};
+
+function closeLightbox() {
+  document.getElementById('lightbox').style.width = "0%";
+}
