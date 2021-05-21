@@ -53,6 +53,16 @@ margin: 30px;
   white-space: nowrap;
 }
 
+.overlay a {
+  padding: 18px;
+  text-decoration: none;
+  font-size: 80px;
+  font-family: "Ranchers", cursive;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
 .overlay .closebtn {
   position: absolute;
   top: 20px;
