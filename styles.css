@@ -4,28 +4,30 @@ body {
 }
 
 .deck {
-  display: block;
-  max-width: 30%;
-  position: relative;
-left: 33%;
-right: auto;
+position: relative;
+display: flex;
+justify-content: space-around;
 margin: 30px;
+}
 
+.deck img {
+  width: 300px;
 }
 
 .ppf-spread {
-  width: 100%;
-  height: 50px;
   position: relative;
-  align-content: space-around;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
 }
 
 .card {
-  width: 60%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 3em;
   cursor: pointer;
+}
+.card img {
+  width: 200px;
 }
 
 /* Lightbox */
