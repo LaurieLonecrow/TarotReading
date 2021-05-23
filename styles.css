@@ -1,7 +1,11 @@
 body {
   width: 100%;
   margin: 0;
+}
 
+.wrapper {
+  display: flex;
+flex-direction: column;
 }
 
 .deck {
@@ -12,7 +16,7 @@ margin: 30px;
 }
 
 .deck img {
-  width: 300px;
+  width: 100%;
 }
 
 .ppf-spread {
@@ -23,13 +27,12 @@ margin: 30px;
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin: 30px;
+  margin: 1rem;
   cursor: pointer;
-  flex-shrink: 5;
 }
 
 .card img {
-  width: 200px;
+  width: 100%;
 }
 
 /* Lightbox */
