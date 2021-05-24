@@ -16,13 +16,14 @@ margin: 30px;
 }
 
 .deck img {
-  width: 100%;
+  width: 30%;
 }
 
 .ppf-spread {
   position: relative;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .card {
@@ -32,7 +33,7 @@ margin: 30px;
 }
 
 .card img {
-  width: 100%;
+flex:3;
 }
 
 /* Lightbox */
@@ -78,11 +79,9 @@ margin: 30px;
 }
 
 /* Media */
-@media screen and (max-width: 300px) {
-  body {
-      flex: 100%;
-      max-width: 100%;
-      overflow-x: hidden;
+@media screen and (max-width: 400px) {
+  img {
+      width: 100%;
     }
 
 }
